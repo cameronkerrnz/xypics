@@ -1,0 +1,292 @@
+{
+    "name": "Gir, from Invader Zim",
+    "author": "Cameron Kerr",
+    "world_coordinates": {
+        "llx": 0, "lly": 0, "urx": 50, "ury": 50
+    },
+    "elements": [
+        {
+            "id": "W",
+            "comment": "Antenna",
+            "type": "filled_path",
+            "pen_size": 4,
+            "fill_color": "silver",
+            "coords": [
+                [22, 44], [20.7, 45.8], [19.1, 47.5], [20.9, 46.3], [23, 44]
+            ]
+        },
+        {
+            "id": "X",
+            "comment": "Antenna knob",
+            "type": "filled_path",
+            "pen_size": 4,
+            "fill_color": "turquoise",
+            "coords": [
+                [19.1, 47.5], [18.8, 47.3], [18.5, 47.6], [18.5, 48], [18.9, 48.1],
+                [19.1, 47.8], [19.1, 47.5]
+            ]
+        },
+        {
+            "id": "I",
+            "comment": "Neck",
+            "type": "filled_path",
+            "pen_size": 5,
+            "fill_color": "silver",
+            "coords": [
+                [25, 23.5], [25, 21], [24, 21], [24, 23.5]
+            ]
+        },
+        {
+            "id": "A",
+            "comment": "Head",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_color": "black",
+            "pen_size": 0,
+            "coords": [
+                [17, 41], [22, 44], [28, 45.5], [32, 45],
+                [31.5, 33], [31, 27], [30, 25], [28, 23.5], [25, 23],
+                [21, 24], [19, 28], [17.5, 35], [17, 41]
+            ]
+        },
+        {
+            "id": "B",
+            "comment": "Shadow on head",
+            "type": "filled_path",
+            "fill_color": "grey60",
+            "pen_color": "grey60",
+            "pen_size": 0,
+            "coords": [
+                [17, 41], [22, 42], [29, 42],
+                [31, 27], [30, 25], [29, 26],
+                [25, 23], [21, 24], [19, 28], [17.5, 35], [17, 41]
+            ]
+        },
+        {
+            "id": "C",
+            "comment": "Head outline (same coords as A, needs to overwrite shadow)",
+            "type": "path",
+            "pen_color": "black",
+            "pen_size": 5,
+            "coords": [
+                [17, 41], [22, 44], [28, 45.5], [32, 45],
+                [31.5, 33], [31, 27], [30, 25], [28, 23.5], [25, 23],
+                [21, 24], [19, 28], [17.5, 35], [17, 41]
+            ]
+        },
+        {
+            "id": "D",
+            "comment": "Left eye",
+            "type":"filled_path",
+            "fill_color": "turquoise",
+            "pen_size": 5,
+            "coords": [
+                [24, 35.5], [26, 35], [27.5, 33.5], [28, 30.5], [27.5, 28.5],
+                [26, 27],[23.5, 26.5], [21.5, 27.5], [20.5, 29], [20, 31.5], 
+                [20.5, 34], [21.5, 35], [24, 35.5]
+            ]
+        },
+        {
+            "id": "E",
+            "comment": "Right eye surround",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 5,
+            "coords": [
+                [35, 35], [31, 34], [30.5, 33.5], [30, 31.5], [30, 30],
+                [30.5, 28.5], [31, 27.5], 
+                [34, 26.4], [35, 27.5], [36, 30.5], [36, 34], [35, 35]
+            ]
+        },
+        {
+            "id": "F",
+            "comment": "Right eye light",
+            "type": "filled_path",
+            "fill_color": "turquoise",
+            "pen_size": 5,
+            "coords": [
+                [35, 35], [34, 33.5], [33.5, 30], [33.5, 28], 
+                [34, 26.4], [35, 27.5], [36, 30.5], [36, 34], [35, 35]
+            ]
+        },
+        {
+            "id": "G",
+            "comment": "Tongue",
+            "type": "filled_path",
+            "fill_color": "#cc0000",
+            "pen_size": 5,
+            "coords": [
+                [22.5, 26.2], [22.5, 28], [24.5, 27.5], [24.5, 25.8],
+                [23.5, 26], [23.5, 27], [23.5, 26], [22.5, 26.2] 
+            ]
+        },
+        {
+            "id": "H",
+            "comment": "Mouth",
+            "type": "path",
+            "pen_size": 5,
+            "coords": [
+                [21, 26.5], [28, 25]
+            ]
+        },
+        {
+            "id": "I",
+            "comment": "Body fill",
+            "type": "filled_path",
+            "pen_size": 0,
+            "fill_color": "silver",
+            "coords": [
+                [21.5, 20], [23, 21], [26, 21], [27, 19.5], [27.5, 14],
+                [26, 12], [23.5, 12], [22, 14], [21.5, 20]
+            ]
+        },
+        {
+            "id": "J",
+            "comment": "Body shadow",
+            "type": "filled_path",
+            "pen_size": 0,
+            "pen_color": "grey60",
+            "fill_color": "grey60",
+            "coords": [
+                [21.5, 20], [23, 21], [24.5, 20], 
+                [25.5, 18], [25.5, 15.5], [25, 13], 
+                [23.5, 12], [22, 14], [21.5, 20]
+            ]
+        },
+        {
+            "id": "K",
+            "comment": "Body outline",
+            "type": "path",
+            "pen_size": 5,
+            "coords": [
+                [21.5, 20], [23, 21], [26, 21], [27, 19.5], [27.5, 14],
+                [26, 12], [23.5, 12], [22, 14], [21.5, 20]
+            ]
+        },
+        {
+            "id": "L",
+            "comment": "Body panel",
+            "type": "filled_path",
+            "fill_color": "turquoise",
+            "pen_size": 4,
+            "coords": [
+                [23.5, 19], [26, 19.5], [27, 19.5],
+                [27.35, 16], [26, 16], [24, 15.5],
+                [23.5, 19]
+            ]
+        },
+        {
+            "id": "M",
+            "comment": "Body panel shadow",
+            "type": "filled_path",
+            "pen_size": 0,
+            "pen_color": "dark turquoise",
+            "fill_color": "dark turquoise",
+            "coords": [
+                [23.5, 19],
+                [24.8, 19.3], [25.5, 17.5], [25.5, 15.9], 
+                [24, 15.5], [23.5, 19]
+            ]
+        },
+        {
+            "id": "N",
+            "comment": "Body panel outline",
+            "type": "path",
+            "pen_size": 4,
+            "coords": [
+                [25.5, 15.9], 
+                [24, 15.5], [23.5, 19], [23.5, 19],
+                [24.8, 19.3]
+            ]
+        },
+        {
+            "id": "S",
+            "comment": "Panel latch",
+            "type": "filled_path",
+            "fill_color": "white",
+            "pen_size": 4,
+            "coords": [
+                [25.5, 19.7], [26, 19.7], [26, 19], [25.5, 19], [25.5, 19.7]
+            ]
+        },
+        {
+            "id": "O",
+            "comment": "Shoulder",
+            "type": "filled_path",
+            "fill_color": "dark turquoise",
+            "pen_size": 5,
+            "coords": [
+                [22, 18.5], [21, 18.5], [20, 19], [20, 20.5], [21, 21.5],
+                [22, 21.5], [22.5, 20], [22, 18.5]
+            ]
+        },
+        {
+            "id": "P",
+            "comment": "Arm",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 4,
+            "coords": [
+                [20.5, 18.7], [21, 18.5], [21.5, 18.5],
+                [19.5, 12.5],
+                [20.5, 18.7]
+            ]
+        },
+        {
+            "id": "R",
+            "comment": "Hand",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 4,
+            "coords": [
+                [19.3, 12.5], [18.5, 15], [18.4, 13.5], [17.5, 14], [18.2, 12.5], [19, 12.2]
+                
+            ]
+        },
+        {
+            "id": "Q",
+            "comment": "Wrist",
+            "type": "filled_path",
+            "fill_color": "dark turquoise",
+            "pen_size": 4,
+            "coords": [
+                [19.3, 13], [20, 12.6], [19.5, 12], [19, 12], [19.3, 13]
+            ]
+        },
+        {
+            "id": "T",
+            "comment": "Left leg",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 5,
+            "coords": [
+                [23, 11], [23, 7],
+                [22, 3.5], [21, 3], [20, 3], [19.5, 3.5],
+                [21.5, 7], [23, 11]
+            ]
+        },
+        {
+            "id": "U",
+            "comment": "Right leg",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 5,
+            "coords": [
+                [28, 13], [31.5, 15], 
+                [35, 16.5], [35.5, 16], [35.7, 14.5], [35.1, 13.2], [34.5, 12.8], 
+                [30, 13], [28, 13]
+            ]
+        },
+        {
+            "id": "V",
+            "comment": "Right foot",
+            "type": "filled_path",
+            "fill_color": "silver",
+            "pen_size": 4,
+            "coords": [
+                [35, 16.5], [35.5, 16], [35.7, 14.5], [35.1, 13.2], [34.5, 12.8], 
+                [34, 13.5], [34, 15], [34.3, 16], [35, 16.5]
+            ]
+        }
+    ]
+}
